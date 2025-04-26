@@ -1,0 +1,59 @@
+/* TrackingPage.css */
+
+.tracking-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+  border: 8px solid #333;
+  overflow: hidden;
+}
+
+.package-info {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.name{
+  color: #ff8c00;
+}
+.package-info h2, .package-info h3 {
+  color: orange;
+}
+
+.package-info p {
+  margin: 0.5rem 0;
+}
+
+.package-info span {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #map {
+    height: 300px;
+  }
+
+  .package-info {
+    padding: 0.5rem;
+  }
+
+  .package-info p {
+    font-size: 0.875rem;
+  }
+
+  .package-info h2, .package-info h3 {
+    font-size: 1.25rem;
+  }
+}
