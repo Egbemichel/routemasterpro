@@ -1,4 +1,4 @@
-# RouteMasterPro 🚚📍 (React Edition)
+# RouteMasterPro 🚚📍
 *A real-time(ish) logistics tracker powered by maps, animations, and childhood dreams.*
 
 ---
@@ -39,7 +39,7 @@ Admins can generate tracking numbers tied to fake routes, and users can input th
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/routemasterpro.git
+   git clone https://github.com/Egbemichel/routemasterpro
 2. **Install dependencies**
      cd routemasterpro
      npm install
