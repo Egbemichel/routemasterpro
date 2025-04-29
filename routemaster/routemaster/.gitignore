@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+routemaster/routemaster/src/assets/*.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
